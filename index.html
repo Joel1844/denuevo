@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Bienvenidos al fomulario</title>
+</head>
+<body>
+                    
+   <form action="#" method="POST" class="form-register" onsubmit="return validar();" >
+
+        <h4>formulario registro</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder ="ingrese su nombres:" required >
+        <input class="controls" type="text" name="Apellidos" id="Apellidos" placeholder="ingrese su Apellidos:" required>
+        <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo:" required >
+        <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="ingrese su contraseña:"required>
+        <p> Estoy de acuerdo con los <a href="#">terminos y condiciones</a></p>
+        <input class="botons " type="submit" value="Registrar" id="btn" id="btn">
+        <p><a href="#"> ya tengo cuenta?</a></p>
+    </form>
+<script src="validar.js"> </script>
+</body>
+</html>
+
+
+
